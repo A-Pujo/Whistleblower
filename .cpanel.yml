@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/bempkns1/sikka.bempknstan.org
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete

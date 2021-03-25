@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Kamu Offline</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta content="SIKKA BEM" name="description" />
+		<meta content="SIKKA BEM" name="keywords" />
+		<meta content="Moh. Walid Arkham Sani" name="author" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="shortcut icon" href="./assets/front/images/favicon.ico" />
+		<link rel="stylesheet" href="./assets/front/dist/css/adminlte.css" />
+
+		<link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./manifest.json" />
+		<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#007bff" />
+		<meta name="msapplication-TileColor" content="#007bff" />
+		<meta name="theme-color" content="#007bff" />
+	</head>
+
+	<body class="login-page">
+		<div class="login-box">
+			<div class="login-logo mb-0">
+				<div class="text-center">
+					<img
+						class="img"
+						src="./assets/front/dist/img/404.gif"
+						alt="Kamu Offline"
+						height="100"
+					/>
+					<span class="d-block mb-0">Sedang Offline</span>
+				</div>
+			</div>
+			<span class="d-block text-center">Periksa Koneksi Internetmu</span>
+		</div>
+		<script src="./upup.min.js"></script>
+		<script>
+			UpUp.start({
+				"content-url": "./offline.html",
+				assets: [
+					"./assets/front/dist/css/adminlte.css",
+					"./assets/front/dist/img/404.gif",
+					"./assets/front/dist/js/adminlte.js",
+					"./assets/front/images/favicon.ico",
+					"./manifest.json",
+				],
+				"service-worker-url": "./upup.sw.min.js",
+			});
+		</script>
+	</body>
+</html>

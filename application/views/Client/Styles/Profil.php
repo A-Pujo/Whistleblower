@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="<?= base_url(); ?>/assets/front/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+<link rel="stylesheet" href="<?= base_url(); ?>/assets/front/plugins/daterangepicker/daterangepicker.css">

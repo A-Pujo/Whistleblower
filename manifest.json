@@ -1,0 +1,17 @@
+{
+	"name": "SIKKA BEM",
+	"short_name": "SIKKA BEM",
+	"theme_color": "#007bff",
+	"background_color": "#007bff",
+	"display": "standalone",
+	"scope": "./",
+	"start_url": "./",
+	"icons": [
+		{
+			"src": "./android-chrome-96x96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		}
+	],
+	"splash_pages": null
+}

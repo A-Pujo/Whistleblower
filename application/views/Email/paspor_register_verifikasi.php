@@ -1,0 +1,1 @@
+Link verifikasi email: <a href="<?= site_url('paspor/verifikasi-email?token=' . urlencode($token)); ?>">Verifikasi</a>
